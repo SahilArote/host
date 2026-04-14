@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: 5173,
     proxy: {
-      '/api': 'https://host-vs5v.onrender.com'
+      '/api': 'http://localhost:3000'
     }
   },
   build: {
